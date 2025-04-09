@@ -1,1 +1,2 @@
 # Self-Balancing
+This is a two-wheeled balancing robot constructed using an ESP32, stepper motors with TB6600 drivers, and the MPU6050 IMU sensor. The MPU6050 gives current orientation information, which is read by the ESP32 to correct balance through a PID control scheme. The stepper motors are controlled through TB6600 drivers to give accurate movement. The robot makes constant correction in position as a function of tilt angle in order to remain upright. This project illustrates fundamental concepts of control systems, sensor fusion, and robotics embedded programming.
